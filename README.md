@@ -25,6 +25,12 @@ brew install e2fsprogs
 
 Готовые сборки: [Releases](https://github.com/VsevolodVasin/multi-image-kitchen-macos/releases).
 
+Если macOS пишет, что приложение повреждено или не может проверить разработчика:
+
+```bash
+./scripts/fix-gatekeeper.sh /Applications/MIK.app
+```
+
 ## License
 
 GPL-3.0. Сторонние компоненты: [THIRD_PARTY.md](THIRD_PARTY.md).
