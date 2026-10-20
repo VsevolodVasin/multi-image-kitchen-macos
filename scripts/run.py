@@ -1,4 +1,4 @@
 #!/usr/bin/env python3
-import runpy
+from mik.__main__ import main
 
-runpy.run_module("mik", run_name="__main__")
+main()

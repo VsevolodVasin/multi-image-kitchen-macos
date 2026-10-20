@@ -46,6 +46,11 @@ mkdir -p "$STAGE" "$OUT"
   --add-data "$ROOT/THIRD_PARTY.md:." \
   --add-data "$ROOT/NOTICE:." \
   --paths "$ROOT" \
+  --hidden-import mik \
+  --hidden-import mik.window \
+  --hidden-import mik.engine \
+  --hidden-import mik.sparse \
+  --collect-all PyQt6 \
   "$ROOT/scripts/run.py"
 
 PLIST="$OUT/MIK.app/Contents/Info.plist"
