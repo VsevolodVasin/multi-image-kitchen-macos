@@ -1,6 +1,6 @@
 # Multi Image Kitchen for macOS
 
-Распаковка и сборка Amlogic-образов и ext4-разделов (Khadas VIM3 / VIM3L).
+Распаковка и сборка Amlogic-образов и ext4-разделов.
 
 Прошивка по USB: [usb-burning-tool-macos](https://github.com/VsevolodVasin/usb-burning-tool-macos).
 
@@ -29,4 +29,4 @@ brew install e2fsprogs
 
 GPL-3.0. Сторонние компоненты: [THIRD_PARTY.md](THIRD_PARTY.md).
 
-Основано на [ColdWindScholar/MIK](https://github.com/ColdWindScholar/MIK) (AGPL) и утилитах [Khadas](https://github.com/khadas/utils).
+Основано на [ColdWindScholar/MIK](https://github.com/ColdWindScholar/MIK) (AGPL).
